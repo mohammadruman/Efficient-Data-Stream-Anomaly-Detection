@@ -119,15 +119,12 @@ def real_time_anomaly_detection(data_stream, batch_size=50, update_interval=0.1,
 # Main block 
 if __name__ == "__main__":
     try:
-        # Generate the data stream
+      
         data_stream = generatedata()
         if len(data_stream) == 0:
             raise RuntimeError("Failed to generate data stream. Exiting.")
-
-        # Start real-time anomaly detection on the data stream
         real_time_anomaly_detection(data_stream)
-
-        # Write dependencies to requirements.txt
+        #writing the requirements file
         with open("requirements.txt", "w") as f:
             f.write("numpy\n")
             f.write("pandas\n")
