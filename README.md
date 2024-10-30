@@ -6,5 +6,6 @@ Z= (X−μ) / σ
 - μ: Mean of the dataset
 - σ: Standard deviation of the dataset
  
+![image](https://github.com/user-attachments/assets/198aca9a-ec94-4578-9431-e88672b561d2)
 
 ​
