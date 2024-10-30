@@ -7,5 +7,7 @@ Z= (X−μ) / σ
 - σ: Standard deviation of the dataset
  
 
+Screenshot of continuous anamolies detection
 
-​
+​<img width="734" alt="image" src="https://github.com/user-attachments/assets/9148383a-6ff2-4b58-a304-732d97914405">
+
